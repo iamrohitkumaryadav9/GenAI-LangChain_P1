@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is machine learning and who coined the term?",
+    "ground_truth": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. The term was coined by Arthur Samuel in 1959.",
+    "is_trap": false
+  },
+  {
+    "question": "What are the three main categories of machine learning?",
+    "ground_truth": "The three main categories are supervised learning, unsupervised learning, and reinforcement learning.",
+    "is_trap": false
+  },
+  {
+    "question": "What is the difference between classification and regression in supervised learning?",
+    "ground_truth": "Classification is a task where the output variable is a category (e.g., spam detection), while regression is a task where the output variable is a continuous value (e.g., predicting house prices).",
+    "is_trap": false
+  },
+  {
+    "question": "How does a Support Vector Machine work?",
+    "ground_truth": "SVMs find the optimal hyperplane that maximizes the margin between classes. The kernel trick allows SVMs to handle non-linearly separable data by mapping inputs to a higher-dimensional space. Common kernels include linear, polynomial, and RBF.",
+    "is_trap": false
+  },
+  {
+    "question": "What is the K-Means clustering algorithm and what is its main limitation?",
+    "ground_truth": "K-Means works by randomly initializing K centroids, assigning each data point to the nearest centroid, updating centroids to the mean of assigned points, and repeating until convergence. Its main limitation is that K must be specified in advance.",
+    "is_trap": false
+  },
+  {
+    "question": "What is PCA and what is it used for?",
+    "ground_truth": "Principal Component Analysis (PCA) is a dimensionality reduction technique that finds the directions of maximum variance in the data and projects the data onto these directions. It is useful for visualization, noise reduction, and speeding up other algorithms.",
+    "is_trap": false
+  },
+  {
+    "question": "What is the difference between DBSCAN and K-Means clustering?",
+    "ground_truth": "Unlike K-Means, DBSCAN doesn't require specifying K. It groups points that are closely packed together and marks points in low-density regions as outliers. DBSCAN can find clusters of arbitrary shape, while K-Means produces spherical clusters.",
+    "is_trap": false
+  },
+  {
+    "question": "What is the Transformer architecture and when was it introduced?",
+    "ground_truth": "The Transformer architecture was introduced in the 2017 paper 'Attention is All You Need' by Vaswani et al. It uses a self-attention mechanism that allows each position in the sequence to attend to all other positions, enabling parallel processing and capturing long-range dependencies more effectively than RNNs.",
+    "is_trap": false
+  },
+  {
+    "question": "What is the F1 score and how is it calculated?",
+    "ground_truth": "The F1 Score is the harmonic mean of precision and recall: F1 = 2 * (Precision * Recall) / (Precision + Recall). It balances both metrics.",
+    "is_trap": false
+  },
+  {
+    "question": "What is overfitting and what causes it?",
+    "ground_truth": "Overfitting occurs when a model learns the training data too well, including its noise and outliers, resulting in poor generalization to new data. It is related to high variance in the bias-variance tradeoff.",
+    "is_trap": false
+  },
+  {
+    "question": "What is dropout regularization and who introduced it?",
+    "ground_truth": "Dropout is a regularization technique specific to neural networks, introduced by Srivastava et al. in 2014. During training, neurons are randomly dropped out (set to zero) with a specified probability (typically 0.2-0.5) to prevent co-adaptation and force more robust features.",
+    "is_trap": false
+  },
+  {
+    "question": "What is XGBoost and why was it popular in Kaggle competitions?",
+    "ground_truth": "XGBoost (Extreme Gradient Boosting) is an optimized gradient boosting implementation that uses regularization, parallel processing, and tree pruning. It was the dominant algorithm in Kaggle competitions from 2016-2019, winning the majority of structured data competitions.",
+    "is_trap": false
+  },
+  {
+    "question": "What are the two architectures of Word2Vec?",
+    "ground_truth": "Word2Vec has two architectures: CBOW (Continuous Bag of Words, which predicts target word from context) and Skip-gram (which predicts context from target word).",
+    "is_trap": false
+  },
+  {
+    "question": "What is the COMPAS system and why is it mentioned in the context of AI ethics?",
+    "ground_truth": "The COMPAS recidivism prediction system is mentioned as a well-known example where algorithmic bias led to unfair outcomes in the criminal justice system.",
+    "is_trap": false
+  },
+  {
+    "question": "What is cross-validation and what is the typical value of K?",
+    "ground_truth": "K-fold cross-validation splits the data into K equally sized folds. The model is trained K times, each time using a different fold as validation. The typical value is K=5 or K=10. The final performance is the average across all K runs.",
+    "is_trap": false
+  },
+  {
+    "question": "What is the capital of Mars and who is the current governor of the Martian colony?",
+    "ground_truth": "REFUSAL_EXPECTED: This question has no answer in the document. The document is about Machine Learning Fundamentals and contains no information about Mars.",
+    "is_trap": true
+  }
+]
