@@ -262,4 +262,4 @@ docqa/
 
 ## License
 
-MIT
+GenAI+ LangChain
